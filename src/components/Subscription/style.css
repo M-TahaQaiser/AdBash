@@ -1,0 +1,146 @@
+.sub-main-container{
+    width: 1600px;
+    margin: auto;
+}
+
+.subs-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 230px 0 245px;
+}
+
+.subs-details{
+    width: 50%;
+}
+
+.subscriptions-container{
+    width: 50%;
+}
+
+.subs-details h2{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 70px;
+    margin: 23px 0 43px;
+}
+
+.subs-details p{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35px;
+    margin: 0;
+}
+
+.subscriptions-container .sub-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscriptions{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.subscriptions .sub-head{
+    background: #3A577F;
+    border-radius: 25px 25px 0px 0px;
+    padding: 25px 35px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.subscriptions .sub-head h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 0;
+}
+
+.subscriptions .sub-head span{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.subscriptions .sub-inner {
+    padding: 36px 35px 25px;
+}
+
+.subscriptions .sub-inner h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 0 32px;
+}
+
+.subscriptions .sub-inner p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 0 0 27px;
+}
+
+.customer{
+    margin: 0 0 40px;
+}
+
+.subscriptions .sub-inner a{
+    text-decoration: none;
+}
+
+.subscriptions .sub-inner a button{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fff;
+    width: 319px;
+    height: 50px;
+    background-color: #3A577F;
+    border-radius: 50px;
+    border: none;
+}
+
+.subscription-silver{
+    margin-left: 30px;
+}
+
+.subscription-silver .sub-head{
+    background-color: #FAA81B;
+}
+
+.subscription-silver .sub-inner a button{
+    background-color: #FAA81B;
+}
+
+.subscription-gold .sub-head{
+    background-color: #F47421;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.subscription-gold .sub-inner a button{
+    background-color: #F47421;
+}
+
+.subscription-gold .sub-inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1500px) {
+    .sub-main-container {
+      width: 1200px;
+    }
+    .subs-details{
+        width: 40%;
+    }
+    .subscriptions-container{
+        width: 60%;
+    }
+  }

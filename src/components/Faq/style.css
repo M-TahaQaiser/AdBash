@@ -1,0 +1,61 @@
+.faq-container{
+    background: linear-gradient(180deg, #FDCF0B 0%, #F47421 53.12%, #A54623 100%);
+    padding: 202px 0 477px;
+    position: relative;
+}
+
+.disc-img{
+    position: absolute;
+    left: 190px;
+    bottom: -90px;
+}
+
+.faq-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-title{
+    width: 40%;
+}
+
+.faq-title h2{
+    font-size: 64px;
+    line-height: 70px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.faqs{
+    width: 60%;
+}
+
+.faqs .accordion {
+    background-color: transparent!important;
+    color: #fff!important;
+    border: none!important;
+    --bs-accordion-color: #fff!important;
+    --bs-accordion-bg: transparent!important;
+    --bs-accordion-active-color: #fff!important;
+    --bs-accordion-active-bg: transparent!important;
+    --bs-accordion-border-color: transparent;
+    --bs-accordion-btn-color: #fff;
+    --bs-accordion-btn-bg: transparent;
+    --bs-accordion-btn-icon: url('../../../public/assets/images/minus.svg');
+    --bs-accordion-btn-active-icon: url('../../../public/assets/images/plus.svg');
+    --bs-accordion-btn-focus-border-color: transparent;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.faqs .accordion-item .accordion-header .accordion-button{
+    font-size: 32px!important;
+    line-height: 35px!important;
+    font-weight: 500!important;
+    margin: 0;
+}
+.faqs .dropped{
+    font-size: 24px!important;
+    line-height: 26px!important;
+    font-weight: 300!important;
+    margin: 0;
+}

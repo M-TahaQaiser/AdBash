@@ -1,0 +1,47 @@
+.services-container{
+    padding: 213px 0 219px;
+
+}
+
+.services{
+    display: flex;
+    align-items: center;
+}
+
+.services .service-content{
+    width: 480px;
+    margin-left: 50px;
+}
+
+.services .service-content h2{
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: 500;
+    color: #F47421;
+    margin: 0 0 20px;
+}
+
+.services .service-content p{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #3F3D56;
+    margin: 0;
+}
+
+.service-rows{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
+}
+
+.last-service-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1500px) {
+    .service-content {
+      width: auto!important;
+    }
+  }
